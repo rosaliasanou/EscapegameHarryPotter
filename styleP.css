@@ -1,0 +1,49 @@
+body {
+  font-family: Garamond;
+  background-image: url("https://i.redd.it/new-images-of-hufflepuff-common-room-v0-cn88yo3hcal91.png?width=2826&format=png&auto=webp&s=1c615cc2d118f7722381207fc07664b177baae35");
+  background-size: cover;       
+  background-position: center;  
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
+  margin: 0;}
+
+.container {
+  background-color: #000000;
+  opacity: 0.7;
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 650px;
+  box-shadow: 0 0 15px #DBC52A;}
+
+h1 {
+  color: #DBC52A;}
+
+.quote {
+  font-style: garamond;}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  border-radius: 8px;
+  border: none;}
+
+button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: #DBC52A;
+  font-weight: bold;
+  margin-top: 10px;}
+
+.resultat {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;}
+
+.hidden {
+  display: none;}

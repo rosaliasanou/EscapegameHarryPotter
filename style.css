@@ -1,0 +1,51 @@
+body {
+  font-family: Garamond;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;}
+
+body {
+  font-family: Garamond;
+  background-image: url("https://gagadget.com/media/post_big/harry_QPycWsY.jpg");
+  background-size: cover;       
+  background-position: center;  
+  background-attachment: fixed;
+  color: white;}
+
+.quiz-container {
+  background: #000000;
+  opacity: 0.8;
+  padding: 30px;
+  border-radius: 15px;
+  width: 600px;
+  box-shadow: 0 0 20px
+  #000000
+  opacity: 0.5;;}
+
+h1 {
+    text-align: center;}
+
+.question {
+    margin-bottom: 20px;}
+
+label {
+    display: block;
+    margin: 5px 0;
+    cursor: pointer;}
+
+button {
+    background-color: #FFFFFF;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;}
+
+button:hover {
+    background-color: #d4ac0d;}
+
+.resultat {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;}
