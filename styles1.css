@@ -1,0 +1,101 @@
+/* Couleurs globales (variables CSS) */
+:root {
+    --bleu: #6366f1;
+    --rouge: #ef4444;
+    --vert: #10b981;
+    --nwar: #0f172a;
+}
+
+/* Mise en page globale */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--nwar);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--bleu);
+    margin: 10px 0 0px 0;
+}
+
+#pendu-svg {
+    width: 1000px;
+    height: 550px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.btn {
+    appearance: auto;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em 0em 0em 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+/* Boutons d'accueil */
+#btn-oui {
+    background-color: var(--vert);
+}
+
+#btn-oui:hover {
+    transform: scale(1.1);
+}
+
+#btn-non {
+    background-color: var(--rouge);
+    position: absolute;
+    left: 55%;
+    top: 60%;
+}
+
+.touche {
+    padding: 12px;
+    background: #1e293b;
+    border: 1px solid #334155;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.touche:hover {
+    background: var(--bleu);
+    color: white;
+    transform: scale(1.1);
+}
+#affichage-mot {
+    letter-spacing: 3px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du Pendu </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <h1>LE PENDU</h1>
+
+<!-- pendu (SVG) -->
+<svg id="pendu-svg" viewBox="0 0 100 50">
+        <path d="M40,45 L60,45 M45,45 L45,15 L60,15 L60,20" fill=none stroke="black" stroke-width="2">
+        </path>
+
+    <circle cx="60" cy="23" r="3" class="partie-pendu" 
+            fill="none" stroke="red" stroke-width="1" style="display:none"/>
+    <!-- Corps -->
+    <line x1="60" y1="26" x2="60" y2="36" class="partie-pendu" 
+          stroke="red" stroke-width="1" style="display:none"/>
+    <!-- Bras gauche -->
+    <line x1="60" y1="28" x2="64" y2="32" class="partie-pendu" 
+          stroke="red" stroke-width="1" style="display:none"/>
+    <!-- Bras droit -->
+    <line x1="60" y1="28" x2="56" y2="32" class="partie-pendu" 
+          stroke="red" stroke-width="1" style="display:none"/>
+    <!-- Jambe gauche -->
+    <line x1="60" y1="36" x2="56" y2="42" class="partie-pendu" 
+          stroke="red" stroke-width="1" style="display:none"/>
+    <!-- Jambe droite -->
+    <line x1="60" y1="36" x2="64" y2="42" class="partie-pendu" 
+          stroke="red" stroke-width="1" style="display:none"/>
+</svg>
+    <!-- Mot caché -->
+    <div id="affichage-mot">_ _ _ _ _</div>
+
+    <!-- Clavier lettres -->
+    <div id="clavier"></div>
+
+    <!-- page suivante -->
+    <button id="btn-rejouer" class="btn" style="display:none" onclick="initJeu()">Rejouer</button>
+
+    <script src="scriptpendu.js"></script>
+</body>
+</html>
